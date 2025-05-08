@@ -1,0 +1,49 @@
+#!name=楚岚自定义规则
+#!desc=自定义规则
+
+[Rule]
+# CMS 内网直连
+DOMAIN-SUFFIX, stardustgod.com, DIRECT
+DOMAIN-SUFFIX, stardustworld.cn, DIRECT
+DOMAIN-SUFFIX, crazymaplestudios.com, DIRECT
+
+# B 站
+DOMAIN-SUFFIX, bilibili.com, DIRECT
+
+# 搜狗输入法
+# - 该规则组用于避免搜狗输入法将你输入的每一个字符自动收集并通过 get.sogou.com/q 等域名回传
+# - 影响搜狗输入法账号同步、词库更新、问题反馈
+RULE-SET,https://ruleset.skk.moe/List/non_ip/sogouinput.conf,REJECT
+
+# GitHub Copilot
+DOMAIN-KEYWORD,codex.micosoft.icu,DIRECT
+DOMAIN-KEYWORD,api.github.com,DIRECT
+
+# Develop Docs
+
+DOMAIN-SUFFIX, nextui.org, 国外流量
+DOMAIN-SUFFIX, nextjs.org, 国外流量
+DOMAIN-SUFFIX, heroui.com, 国外流量
+DOMAIN-SUFFIX, next-auth.js.org, 国外流量
+DOMAIN-SUFFIX, next-intl-docs.vercel.app, 国外流量
+DOMAIN-SUFFIX, perplexity.ai, 国外流量
+DOMAIN-SUFFIX, claude.ai, 国外流量
+DOMAIN-SUFFIX, codeium.com, 国外流量
+DOMAIN-SUFFIX, temp-mail.org, 国外流量
+DOMAIN-SUFFIX, z-library.sk, 国外流量
+DOMAIN-SUFFIX, cursor.com, 国外流量
+DOMAIN-SUFFIX, docker.m.daocloud.io, 国外流量
+DOMAIN-SUFFIX, api.follow.is, 国外流量
+DOMAIN-SUFFIX, v0.dev, 国外流量
+DOMAIN-SUFFIX, mermaid.js.org, 国外流量
+DOMAIN-SUFFIX, openrouter.ai, 国外流量
+DOMAIN, registry.npmjs.org, 国外流量
+DOMAIN, api.deepseek.com, 国外流量
+DOMAIN-SUFFIX, wikiwand.com, 国外流量
+DOMAIN-SUFFIX, substack.com 国外流量
+
+# Spotify
+RULE-SET,https://raw.githubusercontent.com/dler-io/Rules/main/Surge/Surge%203/Provider/Media/Spotify.list, 国外流量
+
+# 网易云音乐
+RULE-SET,https://raw.githubusercontent.com/dler-io/Rules/main/Surge/Surge%203/Provider/Media/Spotify.list, 国外流量
