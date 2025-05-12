@@ -41,8 +41,5 @@ DOMAIN, registry.npmjs.org, 国外流量
 DOMAIN, api.deepseek.com, 国外流量
 DOMAIN-SUFFIX, wikiwand.com, 国外流量
 
-# Spotify
-RULE-SET,https://raw.githubusercontent.com/dler-io/Rules/main/Surge/Surge%203/Provider/Media/Spotify.list, 国外流量
-
 # 网易云音乐
 RULE-SET,https://raw.githubusercontent.com/dler-io/Rules/main/Surge/Surge%203/Provider/Media/Spotify.list, 国外流量
