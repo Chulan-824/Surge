@@ -43,5 +43,9 @@ DOMAIN, api2.cursor.sh, 国外流量
 DOMAIN-SUFFIX, wikiwand.com, 国外流量
 DOMAIN-SUFFIX, google.com, 国外媒体
 
+PROCESS-NAME, /Applications/Kiro.app/Contents/Frameworks/Kiro Helper (Plugin).app/Contents/MacOS/Kiro Helper (Plugin), 国外媒体
+
+
+
 # 网易云音乐
 RULE-SET,https://raw.githubusercontent.com/dler-io/Rules/main/Surge/Surge%203/Provider/Media/Spotify.list, 国外流量
