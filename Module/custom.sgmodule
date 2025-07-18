@@ -31,7 +31,6 @@ DOMAIN-SUFFIX, claude.ai, 国外流量
 DOMAIN-SUFFIX, codeium.com, 国外流量
 DOMAIN-SUFFIX, temp-mail.org, 国外流量
 DOMAIN-SUFFIX, z-library.sk, 国外流量
-DOMAIN-SUFFIX, cursor.com, 国外流量
 DOMAIN-SUFFIX, docker.m.daocloud.io, 国外流量
 DOMAIN-SUFFIX, api.follow.is, 国外流量
 DOMAIN-SUFFIX, v0.dev, 国外流量
@@ -39,9 +38,16 @@ DOMAIN-SUFFIX, mermaid.js.org, 国外流量
 DOMAIN-SUFFIX, openrouter.ai, 国外流量
 DOMAIN, registry.npmjs.org, 国外流量
 DOMAIN, api.deepseek.com, 国外流量
-DOMAIN, api2.cursor.sh, 国外流量
 DOMAIN-SUFFIX, wikiwand.com, 国外流量
 DOMAIN-SUFFIX, google.com, 国外媒体
+
+DOMAIN, api2.cursor.sh, 国外媒体
+DOMAIN-SUFFIX, cursor.com, 国外媒体
+DOMAIN-SUFFIX,elevenlabs.io,国外媒体
+DOMAIN-SUFFIX,cursor.sh,国外媒体
+DOMAIN-SUFFIX,marketplace.cursorapi.com,国外媒体
+DOMAIN-SUFFIX,download.todesktop.com,国外媒体
+DOMAIN-SUFFIX,cursor-cdn.com,国外媒体
 
 PROCESS-NAME, /Applications/Kiro.app/Contents/Frameworks/Kiro Helper (Plugin).app/Contents/MacOS/Kiro Helper (Plugin), 国外媒体
 
